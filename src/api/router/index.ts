@@ -1,4 +1,4 @@
-import agentRouter from "./agent";
+import agentRouter from "./agent/index.js";
 import express from "express";
 
 const routerV1 = express.Router();
